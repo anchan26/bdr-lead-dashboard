@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Space Grotesk', sans-serif;
+}
+
+body {
+  background-color: #FDFCF8; /* Premium Cream */
+  color: #1A1C1E; /* Deep Slate */
+}
+
+/* Custom selection color to match the cream aesthetic */
+::selection {
+  background: #E8E2D2;
+  color: #1A1C1E;
+}
